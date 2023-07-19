@@ -17,8 +17,8 @@ const ItemCard = ({ product }) => {
           <Text> Add </Text>
         </TouchableOpacity>
       </View>
-      <Text style={{ color: "red", textAlign: "center" }}>
-        {product.inStock ? "" : <Text> Sold Out </Text>}
+      <Text style={styles.stock_info}>
+        {product.inStock ? "" : "Sold Out" }
       </Text>
     </View>
   );

@@ -31,4 +31,8 @@ export default StyleSheet.create({
     justifyContent:'space-between',
     margin:3,
   },
+  stock_info:{
+    color: "red", 
+    textAlign: "center",
+  },
 });
