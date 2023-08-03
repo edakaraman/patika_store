@@ -1,4 +1,4 @@
-# PatikaStore with React Native
+# TechStore with React Native
 <p> The interface part of the e-commerce application was made. Some information about the products was added using JSON data. Functionality was given to the add to cart feature. </p>
 
 <ul>
