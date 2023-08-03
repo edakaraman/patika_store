@@ -15,7 +15,7 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.headerTitle}> PatikaStore </Text>
+      <Text style={styles.headerTitle}> TechStore </Text>
       <TextInput style={styles.input} value={'Search..'} />
       <FlatList
         keyExtractor={(item) => item.id}
