@@ -12,9 +12,9 @@ const ItemCard = ({ product }) => {
       <Text style={styles.item_title}> {product.title} </Text>
       <View style={styles.texts}>
         <Text style={styles.item_price}> {product.price} </Text>
-        <Text> {counter} </Text>
+        <Text style={styles.counter}> {counter} </Text>
         <TouchableOpacity style={styles.btn} onPress={onPress}>
-          <Text> Add </Text>
+          <Text style={styles.btn_text}> Add </Text>
         </TouchableOpacity>
       </View>
       <Text style={styles.stock_info}>

@@ -18,12 +18,19 @@ export default StyleSheet.create({
   item_price: {
     color: 'gray',
     textAlign:'left',
+    fontSize:16,
+  },
+  counter:{
+   fontSize:16,
   },
   btn: {
-    backgroundColor: '#ff6000',
-    borderRadius: 5,
-    width: 40,
+    backgroundColor: '#F3AA60',
+    width: 45,
+    padding:1,
     textAlign: 'center',
+  },
+  btn_text:{
+    fontSize:16,
   },
   texts: {
     display: 'flex',
